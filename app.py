@@ -26,15 +26,6 @@ sections = [
     {
         "label": "SECTION 1",
         "title": "Foundations of Agentic Security & Boundary Defenses",
-        "description": (
-            "Build a defense-first understanding of autonomous AI agent "
-            "architectures and their unique attack surfaces. Participants will "
-            "map real-world agentic threats using the OWASP Agentic Top 10, "
-            "CSA MAESTRO, MITRE ATLAS, and OWASP AIVSS, then implement "
-            "foundational security controls for input/output boundaries, prompt "
-            "injection defense, secure development patterns, and agent identity "
-            "management across production-grade agent frameworks."
-        ),
         "rows": [
             [
                 "1.0 Introduction to Agentic AI Risk Landscape & Threat Model",
@@ -71,13 +62,6 @@ sections = [
     {
         "label": "SECTION 2",
         "title": "Advanced Defenses: Hardening, Operations, and Multi-Agent Ecosystems",
-        "description": (
-            "Move from foundational controls to hardening production agentic AI "
-            "systems at scale. Participants will secure persistent agent memory "
-            "against poisoning, detect and safely terminate rogue agents, "
-            "enforce runtime governance policies on live agent actions, and "
-            "explore emerging threats shaping the future of agentic AI defense."
-        ),
         "rows": [
             [
                 "2.1 Securing Agent Memory & Context Stores",
