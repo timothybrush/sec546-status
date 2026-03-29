@@ -147,6 +147,14 @@ for section in sections:
     )
     st.markdown("---")
 
+# Add a hidden auto-refresh every 10 minutes
+refresh_html = """
+<script>
+    setTimeout(function(){ location.reload(); }, 600000);
+</script>
+"""
+st.markdown(refresh_html, unsafe_allow_html=True)
+
 col1, col2, col3, col4 = st.columns(4)
 col1.success("✅  Completed")
 col2.warning("🔶  In Progress (50%)")
