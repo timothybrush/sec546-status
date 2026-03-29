@@ -11,8 +11,9 @@ LAST_UPDATED = "March 9, 2026 at 22:33 CT"
 st.title("SEC546: Securing Agentic AI")
 st.subheader("Authoring Status")
 st.caption("Status report for Lara and Frank at SANS Institute")
+st.markdown("**Course Author:** Viswanath Chirravuri")
 st.markdown(
-    "**Course Author:** Viswanath Chirravuri  \\\n+    **LinkedIn:** [https://www.linkedin.com/in/vchirrav/](https://www.linkedin.com/in/vchirrav/)"
+    "**LinkedIn:** [https://www.linkedin.com/in/vchirrav/](https://www.linkedin.com/in/vchirrav/)"
 )
 
 viewed_on = datetime.now(CT).strftime("%B %d, %Y at %H:%M CT")
