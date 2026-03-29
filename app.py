@@ -139,7 +139,7 @@ def build_styled_dataframe(rows):
 for section in sections:
     st.markdown(f"## {section['label']}")
     st.subheader(section["title"])
-        st.markdown("### Topics Covered & Labs")
+    st.markdown("### Topics Covered & Labs")
     st.dataframe(
         build_styled_dataframe(section["rows"]),
         use_container_width=True,
