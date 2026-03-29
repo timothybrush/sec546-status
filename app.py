@@ -37,39 +37,44 @@ rows = [
         "1.2 — Defending Against Prompt Injection",
         NOTDONE,
         NOTDONE,
-        f"{HALF} Lab 1.2 Goal Integrity Controls",
+        f"{NOTDONE} Lab 1.2 Goal Integrity Controls",
     ],
     [
         "1.3 — Least-Privilege & Blast Radius Controls",
         NOTDONE,
         NOTDONE,
-        f"{HALF} Lab 1.3 Permission Scoping Lab",
+        f"{NOTDONE} Lab 1.3 Permission Scoping Lab",
     ],
     [
         "1.4 — Resource Governance & Agent Throttling",
         NOTDONE,
         NOTDONE,
-        f"{HALF} Lab 1.4 Budget & Rate Enforcement",
+        f"{NOTDONE} Lab 1.4 Budget & Rate Enforcement",
     ],
     [
         "2.1 — Securing Persistent Agent Memory",
         NOTDONE,
         NOTDONE,
-        f"{HALF} Lab 2.1 Memory Integrity Controls",
+        f"{NOTDONE} Lab 2.1 Memory Integrity Controls",
     ],
     [
         "2.2 — Detecting & Stopping Runaway Agents",
         NOTDONE,
         NOTDONE,
-        f"{HALF} Lab 2.2 Safe Agent Termination",
+        f"{NOTDONE} Lab 2.2 Safe Agent Termination",
     ],
     [
         "2.3 — Verifying Agent Identity & Trust",
         NOTDONE,
         NOTDONE,
-        f"{HALF} Lab 2.3 Multi-Agent Trust Enforcement",
+        f"{NOTDONE} Lab 2.3 Multi-Agent Trust Enforcement",
     ],
-    ["2.4 — Emerging Threats & Future Defenses", NOTDONE, NOTDONE, f"{HALF} Lab: CTF"],
+    [
+        "2.4 — Emerging Threats & Future Defenses",
+        NOTDONE,
+        NOTDONE,
+        f"{NOTDONE} Lab: CTF",
+    ],
 ]
 
 df = pd.DataFrame(
