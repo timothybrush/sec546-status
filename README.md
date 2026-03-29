@@ -10,3 +10,5 @@ pinned: false
 ---
 
 # sec546-status
+
+Live app: https://sec546-status.streamlit.app/
