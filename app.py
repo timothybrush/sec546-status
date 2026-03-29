@@ -137,16 +137,18 @@ def build_styled_dataframe(rows):
     )
 
 
-for section in sections:
-    st.markdown(f"## {section['label']}")
-    st.subheader(section["title"])
-    st.markdown("### Modules & Labs")
-    st.dataframe(
-        build_styled_dataframe(section["rows"]),
-        use_container_width=True,
-        hide_index=True,
-    )
-    st.markdown("---")
+col1, col2 = st.columns(2)
+
+for idx, section in enumerate(sections):
+    with [col1, col2][idx]:
+        st.markdown(f"### {section['label']}")
+        st.subheader(section["title"])
+        st.markdown("**Modules & Labs**")
+        st.dataframe(
+            build_styled_dataframe(section["rows"]),
+            use_container_width=True,
+            hide_index=True,
+        )
 
 col1, col2, col3, col4 = st.columns(4)
 col1.success("✅  Completed")
