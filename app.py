@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 st.set_page_config(page_title="SEC546 Authoring Status", layout="wide")
 
 CT = ZoneInfo("America/Chicago")
-LAST_UPDATED = "March 9, 2026 at 22:33 CT"
+LAST_UPDATED = "April 1, 2026 at 20:51 CT"
 
 st.title("SEC546: Securing Agentic AI")
 st.subheader("Authoring Status")
@@ -37,8 +37,8 @@ sections = [
             [
                 "1.1 Enforcing Input and Output Boundaries",
                 DONE,
-                NOTDONE,
-                f"{HALF} Lab 1.1: Hardening with Guardrails AI",
+                DONE,
+                f"{DONE} Lab 1.1: Hardening with Guardrails AI",
             ],
             [
                 "1.2 Defending Against Prompt Injection",
@@ -111,7 +111,7 @@ def build_styled_dataframe(rows):
         rows, columns=["Module", "PowerPoint Slides", "Speaker Notes", "Lab Setup"]
     )
     return (
-        df.style.applymap(style_cell, subset=STATUS_COLUMNS)
+        df.style.map(style_cell, subset=STATUS_COLUMNS)
         .set_properties(
             subset=["Module"], **{"text-align": "left", "font-weight": "500"}
         )
