@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 st.set_page_config(page_title="SEC546 Authoring Status", layout="wide")
 
 CT = ZoneInfo("America/Chicago")
-LAST_UPDATED = "April 2, 2026 at 09:29 CT"
+LAST_UPDATED = "April 4, 2026 at 20:30 CT"
 
 st.title("SEC546: Securing Agentic AI")
 st.subheader("Authoring Status")
@@ -137,18 +137,16 @@ def build_styled_dataframe(rows):
     )
 
 
-col1, col2 = st.columns(2)
-
-for idx, section in enumerate(sections):
-    with [col1, col2][idx]:
-        st.markdown(f"### {section['label']}")
-        st.subheader(section["title"])
-        st.markdown("**Modules & Labs**")
-        st.dataframe(
-            build_styled_dataframe(section["rows"]),
-            use_container_width=True,
-            hide_index=True,
-        )
+for section in sections:
+    st.markdown(f"### {section['label']}")
+    st.subheader(section["title"])
+    st.markdown("**Modules & Labs**")
+    st.dataframe(
+        build_styled_dataframe(section["rows"]),
+        use_container_width=True,
+        hide_index=True,
+    )
+    st.markdown("---")
 
 col1, col2, col3, col4 = st.columns(4)
 col1.success("✅  Completed")
