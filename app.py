@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 st.set_page_config(page_title="SEC546 Authoring Status", layout="wide")
 
 CT = ZoneInfo("America/Chicago")
-LAST_UPDATED = "May 28, 2026 at 20:51 CT"
+LAST_UPDATED = "May 28, 2026 at 20:56 CT"
 
 st.title("SEC546: Securing Agentic AI")
 st.subheader("Authoring Status")
@@ -26,7 +26,7 @@ STATUS_COLUMNS = ["PowerPoint Slides", "Speaker Notes", "Lab Setup"]
 sections = [
     {
         "label": "SECTION 1",
-        "title": "Foundations of Agentic Security & Boundary Defenses",
+        "title": "Foundations of Agentic AI Security",
         "rows": [
             [
                 "1.0 Introduction to Agentic AI Risk Landscape & Threat Model",
@@ -62,7 +62,7 @@ sections = [
     },
     {
         "label": "SECTION 2",
-        "title": "Advanced Defenses: Hardening, Operations, and Multi-Agent Ecosystems",
+        "title": "Agent Operations, Hardening, and MCP Defense",
         "rows": [
             [
                 "2.1 Securing Agent Memory & Context Stores",
@@ -83,10 +83,40 @@ sections = [
                 f"{DONE} Lab 2.3 Runtime Governance & Policy Enforcement",
             ],
             [
-                "2.4 Emerging Threats & Future Defenses",
-                DONE,
-                DONE,
-                f"{DONE} Lab 2.4 Emerging Threat Defenses",
+                "2.4 MCP Gateway Defense & Policy",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 2.4 Deploying Defensive MCP Gateway",
+            ],
+        ],
+    },
+    {
+        "label": "SECTION 3",
+        "title": "Secure MCP, Desktop Agents, and Runtime Defense",
+        "rows": [
+            [
+                "3.1 MCP Data Integrity & Context Security",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 3.1 Detecting Context Poisoning & Tool Response Poisoning",
+            ],
+            [
+                "3.2 Agent Tool Execution Sandboxing",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 3.2 Tool Sandbox & Egress Controls",
+            ],
+            [
+                "3.3 Securing Desktop Agents",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 3.3 Securing OpenCode Agents",
+            ],
+            [
+                "3.4 Agent Supply Chain & AIBOM Defense",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 3.4 Dependency, Skill & Prompt Provenance",
             ],
         ],
     },
