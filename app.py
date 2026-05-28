@@ -6,9 +6,9 @@ from zoneinfo import ZoneInfo
 st.set_page_config(page_title="SEC546 Authoring Status", layout="wide")
 
 CT = ZoneInfo("America/Chicago")
-LAST_UPDATED = "May 28, 2026 at 21:00 CT"
+LAST_UPDATED = "May 28, 2026 at 21:01 CT"
 
-st.title("SEC546: Securing Agentic AI")
+st.title("SEC546: Securing Agentic AI (5-day)")
 st.subheader("Authoring Status")
 st.caption("Status report for Lara and Frank at SANS Institute")
 st.markdown("**Course Author:** Viswanath Chirravuri")
