@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 st.set_page_config(page_title="SEC546 Authoring Status", layout="wide")
 
 CT = ZoneInfo("America/Chicago")
-LAST_UPDATED = "May 28, 2026 at 20:57 CT"
+LAST_UPDATED = "May 28, 2026 at 20:59 CT"
 
 st.title("SEC546: Securing Agentic AI")
 st.subheader("Authoring Status")
@@ -147,6 +147,30 @@ sections = [
                 NOTDONE,
                 NOTDONE,
                 f"{NOTDONE} Lab 4.4 Task Contamination Isolation Controls",
+            ],
+        ],
+    },
+    {
+        "label": "SECTION 5",
+        "title": "Cyber-Physical Agent Security & Emerging Frontiers",
+        "rows": [
+            [
+                "5.1 Physical-World Agent Safety",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 5.1 Robotic & IoT Kill-Switch Controls",
+            ],
+            [
+                "5.2 Emerging Agentic Security Topics",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 5.2 Confidential Agent Execution & Attestation",
+            ],
+            [
+                "5.3 CTF: Agent Defense Capstone",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 5.3 Live Defense Operations CTF",
             ],
         ],
     },
