@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 st.set_page_config(page_title="SEC546 Authoring Status", layout="wide")
 
 CT = ZoneInfo("America/Chicago")
-LAST_UPDATED = "May 28, 2026 at 20:56 CT"
+LAST_UPDATED = "May 28, 2026 at 20:57 CT"
 
 st.title("SEC546: Securing Agentic AI")
 st.subheader("Authoring Status")
@@ -117,6 +117,36 @@ sections = [
                 NOTDONE,
                 NOTDONE,
                 f"{NOTDONE} Lab 3.4 Dependency, Skill & Prompt Provenance",
+            ],
+        ],
+    },
+    {
+        "label": "SECTION 4",
+        "title": "Multi-Agent, Browser & Computer-Use Agent Security",
+        "rows": [
+            [
+                "4.1 Multi-Agent A2A Protocol Defense",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 4.1 A2A Trust Chain Controls",
+            ],
+            [
+                "4.2 Securing Browser & Computer-Use Agents",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 4.2 CUA Action Sandboxing",
+            ],
+            [
+                "4.3 Delegated Agent Authorization Defense",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 4.3 Token Exchange & Scoping Controls",
+            ],
+            [
+                "4.4 Cross-Agent Data Leakage Defense",
+                NOTDONE,
+                NOTDONE,
+                f"{NOTDONE} Lab 4.4 Task Contamination Isolation Controls",
             ],
         ],
     },
