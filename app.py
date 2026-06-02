@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 st.set_page_config(page_title="SEC546 Authoring Status", layout="wide")
 
 CT = ZoneInfo("America/Chicago")
-LAST_UPDATED = "May 31, 2026 at 09:00 CT"
+LAST_UPDATED = "June 2, 2026 at 09:00 CT"
 
 st.title("SEC546: Securing Agentic AI (5-day)")
 st.subheader("Authoring Status")
@@ -96,9 +96,9 @@ sections = [
         "rows": [
             [
                 "3.1 MCP Data Integrity & Context Security",
-                NOTDONE,
-                NOTDONE,
-                f"{NOTDONE} Lab 3.1 Detecting Context Poisoning & Tool Response Poisoning",
+                HALF,
+                HALF,
+                f"{DONE} Lab 3.1 Detecting Context Poisoning & Tool Response Poisoning",
             ],
             [
                 "3.2 Agent Tool Execution Sandboxing",
