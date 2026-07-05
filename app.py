@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 st.set_page_config(page_title="SEC546 Authoring Status", layout="wide")
 
 CT = ZoneInfo("America/Chicago")
-LAST_UPDATED = "June 19, 2026 at 17:03 CT"
+LAST_UPDATED = "July 4, 2026 at 21:44 CT"
 
 st.title("SEC546: Securing Agentic AI (5-day)")
 st.subheader("Authoring Status")
@@ -15,6 +15,11 @@ st.markdown("**Course Author:** Viswanath Chirravuri")
 
 viewed_on = datetime.now(CT).strftime("%B %d, %Y at %H:%M CT")
 st.markdown(f"**Last updated:** {LAST_UPDATED} &nbsp;|&nbsp; **Viewed:** {viewed_on}")
+
+st.info(
+    "📌 **Note:** All sections (1, 2, 3, 4, 5) are updated to use the "
+    "**gpt-oss-20b** and **AWS Nova 2 Lite** models."
+)
 
 DONE = "✅"
 NOTDONE = "❌"
