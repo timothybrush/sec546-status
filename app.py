@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 st.set_page_config(page_title="SEC546 Authoring Status", layout="wide")
 
 CT = ZoneInfo("America/Chicago")
-LAST_UPDATED = "August 11, 2026 at 12:39 CT"
+LAST_UPDATED = "August 11, 2026 at 13:03 CT"
 
 st.title("SEC546: Securing Agentic AI (5-day)")
 st.subheader("Authoring Status")
@@ -161,8 +161,8 @@ sections = [
         "rows": [
             [
                 "5.1 Physical-World Agent Safety",
-                NOTDONE,
-                NOTDONE,
+                HALF,
+                HALF,
                 f"{DONE} Lab 5.1 Robotic & IoT Kill-Switch Controls",
             ],
             [
